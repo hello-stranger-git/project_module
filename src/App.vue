@@ -3,6 +3,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <span class="a">123</span>
+      <svg-icon icon-class="svgIcon"></svg-icon>
     </div>
     <router-view/>
   </div>
@@ -15,6 +17,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.a{
+  font-size: 12px;
 }
 
 #nav {
